@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePulse.API", "CodePulse.API\CodePulse.API.csproj", "{DB82AB33-4109-42F9-AC42-607065B8C20F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{B557673F-6B65-47C2-9FE9-F9200051CB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagers", "DataManagers\DataManagers.csproj", "{B93E073F-D969-4142-9519-07FA1A1AD42D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{DB82AB33-4109-42F9-AC42-607065B8C20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB82AB33-4109-42F9-AC42-607065B8C20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB82AB33-4109-42F9-AC42-607065B8C20F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B557673F-6B65-47C2-9FE9-F9200051CB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B557673F-6B65-47C2-9FE9-F9200051CB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B557673F-6B65-47C2-9FE9-F9200051CB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B557673F-6B65-47C2-9FE9-F9200051CB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93E073F-D969-4142-9519-07FA1A1AD42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93E073F-D969-4142-9519-07FA1A1AD42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93E073F-D969-4142-9519-07FA1A1AD42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93E073F-D969-4142-9519-07FA1A1AD42D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
