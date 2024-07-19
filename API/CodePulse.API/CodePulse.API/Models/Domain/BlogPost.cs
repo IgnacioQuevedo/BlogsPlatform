@@ -14,4 +14,8 @@ public class BlogPost
     public bool IsVisible { get; set; }
     
     
+    //Para el entity framework
+    public ICollection<Category> Categories { get; set; }
+    
+    
 }

@@ -1,0 +1,40 @@
+
+
+<ng-container *ngIf="blogPostToShow$ | async as blog; else loader">
+    <div class="container">
+        <div class="py-5">
+            <div class="col-12 col-md-8 col-lg-6 mx-auto">
+                <img [src]="blog.featuredImageUrl" [title]="blog.title" class="img-fluid">
+
+                <h1 class="mt-4"> {{blog.title}}</h1>
+                <div class="d-flex justify-content-between mt-4">
+
+                    <span>{{blog.author}}</span>
+                    <span>{{blog.publishedDate | date:'dd-MM-yyyy'}}</span>
+                </div>
+
+                <div *ngIf="blog.categories" class="mt-4">
+                    <span class="badge bg-secondary me-2" *ngFor="let category of blog.categories">
+                        {{category.name}}
+                    </span>
+                    <div class="mt-4 blog-content">
+                        <markdown [data]="blog.content"></markdown>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</ng-container>
+
+<ng-template #loader>
+    <div class="text-center">
+        <div class="spinner-border mt-5" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</ng-template>
+
+
+
+

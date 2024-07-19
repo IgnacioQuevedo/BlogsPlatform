@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "ngx-cookie-service": "^17.1.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.2"
+  }
+}

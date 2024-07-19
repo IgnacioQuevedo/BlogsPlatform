@@ -1,0 +1,41 @@
+
+
+<div class="container">
+
+    <div class="my-5">
+        <div class="row align-items-stretch">
+            <ng-container *ngIf="BlogPosts$ | async as blogs; else NoBlogs">
+
+
+                <div class="col-12 col-md-4 mb-4" *ngFor="let blog of blogs">
+            
+                    <div class="card h-100">
+                        <img [src]="blog.featuredImageUrl" [alt]="blog.title"  class="card-img-top">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">
+                                {{blog.title}}
+                            </h5>
+                            <p class="card-text">
+                                {{blog.shortDescription}}
+                            </p>
+                            <span class="d-flex align-items-end" style="flex:1">
+                            <a [routerLink]="['/blog',blog.urlHandle]" class="btn btn-primary">
+                                Read More
+                            </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            
+            </ng-container>
+        </div>
+    </div>
+
+</div>
+
+
+<ng-template #NoBlogs>
+    <div class="alert alert-warning" role="alert">
+        No Blogs!
+    </div>
+</ng-template>
