@@ -1,6 +1,6 @@
-# BlogApp
+# CodePulse
 
-Welcome to BlogApp — the ideal platform for writers and readers. Whether you're looking to share your thoughts or explore new content, BlogApp offers a seamless experience for both.
+Welcome to CodePulse — the ideal platform for writers and readers. Whether you're looking to share your thoughts or explore new content, BlogApp offers a seamless experience for both.
 
 🚀 **Key Features**
 
@@ -13,7 +13,7 @@ Welcome to BlogApp — the ideal platform for writers and readers. Whether you'r
 - **Explore Blogs:** Browse a variety of blogs categorized by topic.
 - **Read and Enjoy:** Access and enjoy blog posts with an intuitive reader interface.
 
-🌟 **Why Choose BlogApp?**
+🌟 **Why Choose CodePulse?**
 - **User-Friendly Interface:** A clean and intuitive design for both writers and readers.
 - **Organized Content:** Manage and explore blogs and categories effortlessly.
 - **Efficient Blogging:** Streamline your content creation and consumption process.
